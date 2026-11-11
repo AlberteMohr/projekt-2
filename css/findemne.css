@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #d6cec2;
+}
+
+/*styling til header*/
+
+header {
+	background-color: #75485e;
+	text-align: center;
+}
+header a {
+	color: #e0c3d4;
+	text-decoration: none;
+}
+
+.logo {
+	color: white;
+}
+nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+	padding: 0;
+	margin-top: 16px;
+	list-style: none;
+}
+
+nav a {
+	display: inline-block;
+	align-items: center;
+	background-color: #e0c3d4;
+	color: black;
+	padding: 0.5em;
+	border-radius: 30px;
+}
+/*styling emner/artikler*/
+
+.overblik,
+.giv-plads,
+.plan,
+.opgave,
+.rytme,
+.pause {
+	background-color: #b394a7;
+	padding: 16px;
+	margin-bottom: 16px;
+	border-radius: 23px;
+}
+.fa-solid {
+	color: white;
+}
+.inspiration a {
+	float: right;
+	background-color: #132a13;
+	color: white;
+	padding: 8px 16px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+/*styling footer*/
+
+footer {
+	background-color: #75485e;
+	color: white;
+}
+footer a {
+	color: white;
+}
+
+h5 {
+	font-size: 1.5em;
+}
+.fa-brands {
+	color: black;
+}
+.sociale {
+	background-color: #e0c3d4;
+	font-size: 2em;
+}
