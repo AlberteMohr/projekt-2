@@ -47,7 +47,7 @@ h3 {
 }
 p {
 	margin: 0.5em;
-	font-size: 24px;
+	font-size: 16px;
 }
 .intro {
 	background-color: #b394a7;
@@ -57,12 +57,13 @@ p {
 	display: flex;
 	padding: 8px 16px;
 	justify-content: center;
+	justify-items: center;
 	background-color: #132a13;
 	color: white;
 	border-radius: 15px;
 	text-decoration: none;
 	margin: 0.5em;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .banner {
@@ -71,8 +72,18 @@ p {
 }
 
 /* Styling inspiration*/
+.inspiration {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+	padding: 1em;
+}
 .inspiration img {
+	width: 1.5em;
+}
+.inspiration-overskrift {
 	display: flex;
+	align-items: center;
 }
 .overblik,
 .giv-plads,
@@ -82,19 +93,18 @@ p {
 	padding: 16px;
 	margin-bottom: 16px;
 	border-radius: 23px;
-	font-size: 26px;
+	font-size: 20px;
 }
 .fa-solid {
 	color: white;
 }
 .inspiration a {
-	display: flex;
 	background-color: #132a13;
 	color: white;
 	padding: 0.3em;
 	border-radius: 15px;
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 20px;
 	justify-content: center;
 	float: right;
 }
