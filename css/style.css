@@ -54,24 +54,26 @@ p {
 	display: grid;
 }
 .intro a {
+	display: flex;
+	padding: 8px 16px;
+	justify-content: center;
 	background-color: #132a13;
 	color: white;
-	padding: 8px 16px;
 	border-radius: 15px;
 	text-decoration: none;
-	text-align: center;
-	width: 25%;
 	margin: 0.5em;
 	font-size: 24px;
 }
 
-img {
+.banner {
 	display: flex;
 	width: 100%;
 }
 
 /* Styling inspiration*/
-
+.inspiration img {
+	display: flex;
+}
 .overblik,
 .giv-plads,
 .plan {
@@ -86,15 +88,15 @@ img {
 	color: white;
 }
 .inspiration a {
+	display: flex;
 	background-color: #132a13;
 	color: white;
-	padding: 0.2em;
+	padding: 0.3em;
 	border-radius: 15px;
 	text-decoration: none;
-	width: 20%;
-	float: right;
 	font-size: 24px;
-	text-align: center;
+	justify-content: center;
+	float: right;
 }
 
 /*Styling footer*/
