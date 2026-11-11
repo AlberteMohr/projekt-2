@@ -11,6 +11,8 @@ body {
 header {
 	background-color: #75485e;
 	text-align: center;
+	height: 9em;
+	padding-top: 1em;
 }
 header a {
 	color: #e0c3d4;
@@ -51,21 +53,44 @@ nav a {
 
 /*styling footer*/
 
+h5 {
+	margin-left: 0.5em;
+}
 footer {
 	background-color: #75485e;
 	color: white;
+	height: 18em;
 }
 footer a {
 	color: white;
+	margin: 0.5em;
 }
-
+.logo-footer {
+	padding-top: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.kontakt {
+	display: flex;
+	flex-direction: column;
+	margin: 0.5em;
+}
 h5 {
 	font-size: 1.5em;
 }
 .fa-brands {
 	color: black;
+	display: flex;
 }
 .sociale {
+	display: flex;
+	padding: 8px 16px;
+	justify-content: space-evenly;
+	justify-items: center;
 	background-color: #e0c3d4;
 	font-size: 2em;
+	border-radius: 3em;
+	margin: 0.5em;
 }

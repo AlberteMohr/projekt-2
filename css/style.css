@@ -12,6 +12,7 @@ header {
 	background-color: #75485e;
 	text-align: center;
 	height: 9em;
+	padding-top: 1em;
 }
 header a {
 	color: #e0c3d4;
@@ -72,11 +73,11 @@ p {
 }
 
 /* Styling inspiration*/
-.inspiration {
+.inspiration,
+.insp {
 	display: grid;
 	grid-template-columns: 1fr;
 	gap: 20px;
-	padding: 1em;
 }
 .inspiration img {
 	width: 1.5em;
@@ -110,22 +111,115 @@ p {
 }
 
 /*Styling footer*/
-
+h5 {
+	margin-left: 0.5em;
+}
 footer {
 	background-color: #75485e;
 	color: white;
+	height: 18em;
 }
 footer a {
 	color: white;
+	margin: 0.5em;
 }
-
+.logo-footer {
+	padding-top: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.kontakt {
+	display: flex;
+	flex-direction: column;
+	margin: 0.5em;
+}
 h5 {
 	font-size: 1.5em;
 }
 .fa-brands {
 	color: black;
+	display: flex;
 }
 .sociale {
+	display: flex;
+	padding: 8px 16px;
+	justify-content: space-evenly;
+	justify-items: center;
 	background-color: #e0c3d4;
 	font-size: 2em;
+	border-radius: 3em;
+	margin: 0.5em;
+}
+
+@media screen and (min-width: 769px) {
+	header {
+		height: 12em;
+	}
+
+	/* skriftstørrelser*/
+	p {
+		font-size: 30px;
+	}
+	.intro h2,
+	h3 {
+		font-size: 48px;
+	}
+
+	/* tilpasning af introen*/
+	.intro {
+		width: 50%;
+	}
+
+	.intro a {
+		display: flex;
+		align-items: center;
+		justify-items: center;
+		width: 25%;
+		margin: 20px auto;
+		font-size: 26px;
+	}
+	.computer {
+		display: flex;
+		width: 100%;
+	}
+	.banner {
+		width: 50%;
+		height: auto;
+		object-fit: cover;
+	}
+	/*styling inspiratioen*/
+	.inspiration {
+		padding: 1.5em;
+	}
+	h4,
+	.inspiration img {
+		font-size: 30px;
+		align-items: center;
+	}
+
+	.inspiration a {
+		font-size: 20px;
+	}
+
+	.insp {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+	}
+	.insp > div {
+		display: flex;
+		flex-direction: column;
+		width: 30%;
+	}
+	.insp a {
+		margin-top: auto;
+		align-self: flex-end;
+	}
+	.inspiration-overskrift {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
 }
