@@ -40,28 +40,50 @@ nav a {
 }
 
 /*styling emner/artikler*/
-
+.inspiration h2 {
+	display: flex;
+	font-size: 26px;
+	justify-content: center;
+	margin-top: 1em;
+}
+.inspiration,
+.insp {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+}
+.inspiration img {
+	width: 1.5em;
+}
+.inspiration-overskrift {
+	display: flex;
+	align-items: center;
+}
 .overblik,
 .giv-plads,
 .plan,
 .opgave,
 .rytme,
 .pause {
+	margin: 0.5em;
 	background-color: #b394a7;
 	padding: 16px;
 	margin-bottom: 16px;
 	border-radius: 23px;
+	font-size: 20px;
 }
 .fa-solid {
 	color: white;
 }
 .inspiration a {
-	float: right;
 	background-color: #132a13;
 	color: white;
-	padding: 8px 16px;
+	padding: 0.3em;
 	border-radius: 15px;
 	text-decoration: none;
+	font-size: 20px;
+	justify-content: center;
+	float: right;
 }
 
 /*styling footer*/
@@ -114,8 +136,8 @@ h5 {
 	p {
 		font-size: 30px;
 	}
-	h2 {
-		font-size: 30px;
+	.inspiration h2 {
+		font-size: 36px;
 		align-items: center;
 	}
 	.insp h3 {

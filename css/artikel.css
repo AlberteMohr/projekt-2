@@ -109,7 +109,7 @@ img {
 	flex-direction: column;
 	align-items: flex-start;
 }
-.punkt li {
+.punkt p {
 	margin: 1em;
 	justify-items: left;
 	margin-left: 2em;
@@ -213,7 +213,7 @@ h5 {
 	.prov-idag {
 		display: flex;
 	}
-	.punkt li {
+	.punkt p {
 		font-size: 26px;
 	}
 

@@ -40,6 +40,17 @@ nav a {
 	border-radius: 30px;
 }
 
+.intro h2 {
+	display: flex;
+	font-size: 26px;
+	justify-content: center;
+	margin-top: 1em;
+}
+.intro p {
+	font-size: 20px;
+	margin: 0.5em;
+}
+
 /* Styling kontaktformular*/
 
 h3 {
@@ -52,9 +63,12 @@ h3 {
 	background-color: #132a13;
 	color: white;
 	padding: 1.3em;
-	width: 50%;
+	width: 80%;
 	border-radius: 20px;
 	margin: 0 auto; /*Centrerer elementet på siden*/
+	box-sizing: border-box;
+	margin-bottom: 3em;
+	margin-top: 3em;
 }
 
 input[type="text"],
@@ -67,6 +81,7 @@ textarea {
 	border-radius: 20px;
 	margin-top: 0.5em;
 	margin-bottom: 3em;
+	box-sizing: border-box;
 }
 form button {
 	background-color: #e0c3d4;
@@ -131,6 +146,12 @@ h5 {
 	p {
 		font-size: 30px;
 	}
+	.intro h2 {
+		font-size: 36px;
+	}
+	.intro p {
+		font-size: 30px;
+	}
 
 	/*footer styling*/
 	footer {
@@ -149,7 +170,7 @@ h5 {
 		margin-left: 0.5em;
 	}
 
-	h2 {
+	footer h2 {
 		margin-left: 0.5em;
 		font-size: 36px;
 	}

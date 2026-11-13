@@ -162,9 +162,11 @@ h5 {
 	p {
 		font-size: 30px;
 	}
-	.intro h2,
-	h3 {
+	.intro h2 {
 		font-size: 48px;
+	}
+	h3 {
+		font-size: 36px;
 	}
 
 	/* tilpasning af introen*/
