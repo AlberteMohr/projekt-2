@@ -222,4 +222,14 @@ h5 {
 		align-items: center;
 		gap: 8px;
 	}
+
+	/*footer styling*/
+	footer {
+		height: 20em;
+	}
+
+	.sociale {
+		float: right;
+		display: flex;
+	}
 }
