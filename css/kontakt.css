@@ -18,7 +18,9 @@ header a {
 	color: #e0c3d4;
 	text-decoration: none;
 }
-
+header p {
+	margin: 0.5em;
+}
 .logo {
 	color: white;
 }
@@ -145,6 +147,9 @@ h5 {
 
 	p {
 		font-size: 30px;
+	}
+	header nav {
+		font-size: 20px;
 	}
 	.intro h2 {
 		font-size: 36px;
