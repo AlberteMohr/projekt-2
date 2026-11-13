@@ -46,13 +46,22 @@ nav a {
 	background-color: #b394a7;
 	display: flex;
 	flex-direction: column;
-	height: 10em;
+	height: 12em;
 }
-.intro p,
-.indholdet p,
-.raad p {
+.intro p {
 	margin-left: 0.5em;
 	font-size: 20px;
+	margin-bottom: 1em;
+}
+.indholdet p,
+.punkt {
+	margin-left: 0.5em;
+	font-size: 20px;
+	margin-bottom: 1em;
+}
+.undertitel {
+	margin-bottom: 1em;
+	font-size: 26px;
 }
 
 .intro h2 {
@@ -60,20 +69,35 @@ nav a {
 	display: flex;
 	justify-content: center;
 	padding: 0.5em;
+	font-size: 30px;
 }
 h3 {
 	margin-left: 0.5em;
 	padding-bottom: 0.5em;
+	font-size: 20px;
+	margin-top: 1em;
 }
+
 img {
 	display: flex;
 	width: 100%;
 }
+.tekst-raad h3 {
+	margin-top: 1em;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+}
 .raad {
+	display: flex;
+	justify-content: center;
 	background-color: #132a13;
 	color: white;
 }
-
+.punkt {
+	display: flex;
+	justify-content: center;
+}
 /*styling footer*/
 
 h5 {
