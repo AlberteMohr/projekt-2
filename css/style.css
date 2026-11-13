@@ -214,7 +214,6 @@ h5 {
 		width: 30%;
 	}
 	.insp a {
-		margin-top: auto;
 		align-self: flex-end;
 	}
 	.inspiration-overskrift {
@@ -231,5 +230,9 @@ h5 {
 	.sociale {
 		float: right;
 		display: flex;
+	}
+	h5 {
+		display: flex;
+		font-size:;
 	}
 }
