@@ -49,8 +49,9 @@ nav a {
 	margin-top: 1em;
 }
 .intro p {
-	font-size: 20px;
+	font-size: 16px;
 	margin: 0.5em;
+	display: flex;
 }
 
 /* Styling kontaktformular*/
@@ -174,7 +175,9 @@ h5 {
 		font-size: 30px;
 		margin-left: 0.5em;
 	}
-
+	.kontaktform {
+		max-width: 1000px;
+	}
 	footer h2 {
 		margin-left: 0.5em;
 		font-size: 36px;
